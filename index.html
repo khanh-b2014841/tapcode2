@@ -15,63 +15,68 @@
 
 <body>
     <div id="app">
-        <header class="flexbox-center header">
-            <div class="flexbox-center header-group">
-                <div class="header-logo">
-                    <img src="./assets/img/logo.png" alt="logo" class="header-img">
-                </div>
-                <div class="flexbox-center header-wapper">
-                    <nav class="header-nav hiden">
-                        <ul class="flexbox-center header-list">
-                            <li class="header-item">
-                                <a href="" class="header-link active">
-                                    HOME
-                                </a>
-                            </li>
-                            <li class="header-item">
-                                <a href="" class="header-link">
-                                    ABOUT
-                                </a>
-                            </li>
-                            <li class="header-item">
-                                <a href="" class="header-link">
-                                    SERVICES
-                                </a>
-                            </li>
-                            <li class="header-item">
-                                <a href="" class="header-link">
-                                    PROJECTS
-                                </a>
-                            </li>
-                            <li class="header-item">
-                                <a href="" class="header-link">
-                                    TEAM
-                                </a>
-                            </li>
-                            <li class="header-item">
-                                <a href="" class="header-link">
-                                    CONTACT
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="flexbox-center header-btn">
-                        <button class="flexbox-center btn">
-                            <i class="fa-solid fa-phone"></i>
-                            <span class="btn-text">
-                                0123456789
-                            </span>
-                        </button>
+        <header class="header">
+            <div class="flexbox-center header-box">
+                <div class="flexbox-center header-group">
+                    <div class="header-logo">
+                        <img src="./assets/img/logo.png" alt="logo" class="header-img">
+                    </div>
+                    <div class="flexbox-center header-wapper">
+                        <nav class="header-nav hide-tablet">
+                            <ul class="flexbox-center header-list">
+                                <li class="header-item">
+                                    <a href="" class="header-link active">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="" class="header-link">
+                                        ABOUT
+                                    </a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="" class="header-link">
+                                        SERVICES
+                                    </a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="" class="header-link">
+                                        PROJECTS
+                                    </a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="" class="header-link">
+                                        TEAM
+                                    </a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="" class="header-link">
+                                        CONTACT
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="flexbox-center header-btn">
+                            <button class="flexbox-center btn hide-mobile">
+                                <i class="fa-solid fa-phone"></i>
+                                <span class="btn-text">
+                                    0123456789
+                                </span>
+                            </button>
+                            <div class="flexbox-center header-bar">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="shape shape-top header-shape">
+                <img src="./assets/img/shape-1.png" alt="">
+            </div>
         </header>
-        <div class="shape shape-top">
-            <img src="./assets/img/shape-1.png" alt="">
-        </div>
         <main class="content">
             <section class="flexbox-center home">
-                <div class="flexbox-center">
+                <div class="flexbox-center home-sub">
                     <div class="container home-container">
                         <div class="home-group">
                             <h4 class="home-title">
@@ -90,11 +95,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="home-background">
+                    <img src="./assets/img/banner-image.png" alt="">
+                </div>
                 <div class="shape shape-center">
                     <img src="./assets/img/shape-4.png" alt="">
                 </div>
             </section>
-            <section class="flexbox-center">
+            <section class="flexbox-center space">
                 <div class="container">
                     <div class="about">
                         <div class="about-box">
@@ -152,7 +160,7 @@
                     </div>
                 </div>
             </section>
-            <section class="space flexbox-center">
+            <section class="space background flexbox-center">
                 <div class="container">
                     <div class="services">
                         <p class="content-desc">
@@ -171,8 +179,8 @@
                                 </h3>
                                 <p class="sevices-text">
                                     Mauris aliquam, turpis sed mattis placerat,
-                                     justo risus pellentesque quam,
-                                      id finibus risus arcu eget neque.
+                                    justo risus pellentesque quam,
+                                    id finibus risus arcu eget neque.
                                 </p>
                             </div>
                             <div class="flexbox-center sevices-box">
@@ -184,23 +192,24 @@
                                 </h3>
                                 <p class="sevices-text">
                                     Mauris aliquam,
-                                     turpis sed mattis placerat,
-                                      justo risus pellentesque quam,
-                                       id finibus risus arcu eget neque.
+                                    turpis sed mattis placerat,
+                                    justo risus pellentesque quam,
+                                    id finibus risus arcu eget neque.
                                 </p>
                             </div>
-                            <div class="flexbox-center sevices-box"><div class="sevices-icon">
-                                <i class="fa-solid fa-house"></i>
-                            </div>
-                            <h3 class="sevices-title">
-                                Residential Design
-                            </h3>
-                            <p class="sevices-text">
-                                Mauris aliquam,
-                                 turpis sed mattis placerat,
-                                  justo risus pellentesque quam,
-                                   id finibus risus arcu eget neque.
-                            </p>
+                            <div class="flexbox-center sevices-box">
+                                <div class="sevices-icon">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <h3 class="sevices-title">
+                                    Residential Design
+                                </h3>
+                                <p class="sevices-text">
+                                    Mauris aliquam,
+                                    turpis sed mattis placerat,
+                                    justo risus pellentesque quam,
+                                    id finibus risus arcu eget neque.
+                                </p>
                             </div>
                             <div class="flexbox-center sevices-box">
                                 <div class="sevices-icon">
@@ -211,9 +220,9 @@
                                 </h3>
                                 <p class="sevices-text">
                                     Mauris aliquam,
-                                     turpis sed mattis placerat,
-                                      justo risus pellentesque quam,
-                                       id finibus risus arcu eget neque.
+                                    turpis sed mattis placerat,
+                                    justo risus pellentesque quam,
+                                    id finibus risus arcu eget neque.
                                 </p>
                             </div>
                             <div class="flexbox-center sevices-box">
@@ -225,9 +234,9 @@
                                 </h3>
                                 <p class="sevices-text">
                                     Mauris aliquam,
-                                     turpis sed mattis placerat,
-                                      justo risus pellentesque quam,
-                                       id finibus risus arcu eget neque.
+                                    turpis sed mattis placerat,
+                                    justo risus pellentesque quam,
+                                    id finibus risus arcu eget neque.
                                 </p>
                             </div>
                             <div class="flexbox-center sevices-box">
@@ -239,9 +248,9 @@
                                 </h3>
                                 <p class="sevices-text">
                                     Mauris aliquam,
-                                     turpis sed mattis placerat,
-                                      justo risus pellentesque quam,
-                                       id finibus risus arcu eget neque.
+                                    turpis sed mattis placerat,
+                                    justo risus pellentesque quam,
+                                    id finibus risus arcu eget neque.
                                 </p>
                             </div>
                         </div>
@@ -263,15 +272,15 @@
                 </div>
                 <div class="project-group">
                     <div class="project-picture">
-                       <img src="./assets/img/p-1.jpg" alt="" class="project-img">
-                       <div class="project-more">
-                           <div class="project-line"></div>
-                           <p class="project-text">
-                               Home Interior Design
-                           </p>
-                       </div>
+                        <img src="./assets/img/p-1.jpg" alt="" class="project-img">
+                        <div class="project-more">
+                            <div class="project-line"></div>
+                            <p class="project-text">
+                                Home Interior Design
+                            </p>
+                        </div>
                     </div>
-                    <div class="project-picture">
+                    <div class="project-picture hide-mobile">
                         <img src="./assets/img/p-2.jpg" alt="" class="project-img">
                         <div class="project-more">
                             <div class="project-line"></div>
@@ -279,8 +288,8 @@
                                 Home Interior Design
                             </p>
                         </div>
-                     </div>
-                     <div class="project-picture">
+                    </div>
+                    <div class="project-picture hide-mobile">
                         <img src="./assets/img/p-3.jpg" alt="" class="project-img">
                         <div class="project-more">
                             <div class="project-line"></div>
@@ -288,8 +297,8 @@
                                 Home Interior Design
                             </p>
                         </div>
-                     </div>
-                     <div class="project-picture">
+                    </div>
+                    <div class="project-picture hide-tablet">
                         <img src="./assets/img/p-4.jpg" alt="" class="project-img">
                         <div class="project-more">
                             <div class="project-line"></div>
@@ -297,8 +306,8 @@
                                 Home Interior Design
                             </p>
                         </div>
-                     </div>
-                     <div class="project-picture">
+                    </div>
+                    <div class="project-picture hide-tablet">
                         <img src="./assets/img/p-5.jpg" alt="" class="project-img">
                         <div class="project-more">
                             <div class="project-line"></div>
@@ -306,7 +315,7 @@
                                 Home Interior Design
                             </p>
                         </div>
-                     </div>
+                    </div>
                 </div>
                 <div class="flexbox-center">
                     <ul class="flexbox-center project-list">
@@ -316,7 +325,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="flexbox-center space">
+            <section class="flexbox-center background space">
                 <div class="container">
                     <div class="project-headding">
                         <p class="content-desc project-desc">
@@ -337,13 +346,13 @@
                                     CEO & Founder
                                 </p>
                                 <ul class="flexbox-center team-group">
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-twitter"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-invision"></i>
                                     </li>
                                 </ul>
@@ -359,13 +368,13 @@
                                     Chief Designer
                                 </p>
                                 <ul class="flexbox-center team-group">
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-twitter"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-invision"></i>
                                     </li>
                                 </ul>
@@ -381,13 +390,13 @@
                                     Consultant
                                 </p>
                                 <ul class="flexbox-center team-group">
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-twitter"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-invision"></i>
                                     </li>
                                 </ul>
@@ -395,7 +404,7 @@
                         </div>
                         <div class="team-box">
                             <img src="./assets/img/haosvb.jpg" alt="" class="team-img">
-                            <div class= "team-wapper">
+                            <div class="team-wapper">
                                 <h3 class="team-name">
                                     Mark Parker
                                 </h3>
@@ -403,13 +412,13 @@
                                     Intern
                                 </p>
                                 <ul class="flexbox-center team-group">
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-twitter"></i>
                                     </li>
-                                    <li class="team-icon">
+                                    <li class="flexbox-center team-icon">
                                         <i class="fa-brands fa-invision"></i>
                                     </li>
                                 </ul>
@@ -417,10 +426,10 @@
                         </div>
                     </div>
                 </div>
-                
+
             </section>
             <section class="flexbox-center space-1">
-                <div class="container">
+                <div class="container team-sub">
                     <div class="team-room">
                         <div class="flexbox-center team-room__card">
                             <div class="team-room__avatar">
@@ -431,11 +440,11 @@
                             </div>
                             <p class="team-room__text">
                                 Lorem ipsum dolor sit amet,
-                                 ectetur adipiscing elit.
-                                  Phasellus vel erat ces,
-                                   commodo lectus eu, finibus diam.
-                                    m ipsum dolor sit amet, 
-                                    ectetur.
+                                ectetur adipiscing elit.
+                                Phasellus vel erat ces,
+                                commodo lectus eu, finibus diam.
+                                m ipsum dolor sit amet,
+                                ectetur.
                             </p>
                             <div class="team-room__in4">
                                 <h5 class="team-room__name">
@@ -465,7 +474,7 @@
                     <img src="./assets/img/shape-4.png" alt="" class="backroud-team__img">
                 </div>
             </section>
-            <section class="flexbox-center space">
+            <section class="flexbox-center background space">
                 <div class="container">
                     <div class="project-headding">
                         <p class="content-desc project-desc">
@@ -483,7 +492,7 @@
                             </div>
                             <div class="flexbox-center contact-group">
                                 <input type="text" class="contact-input" placeholder="subject">
-                                <input type="text" class="contact-input"  placeholder="phone">
+                                <input type="text" class="contact-input" placeholder="phone">
                             </div>
                             <textarea cols="30" rows="10" class="contact-message" placeholder="your massage"></textarea>
                         </div>
@@ -496,7 +505,6 @@
                         </button>
                     </div>
                 </div>
-
             </section>
         </main>
         <footer class="footer">
@@ -575,7 +583,7 @@
                                 </li>
                                 <li class="footer-item footer-news">
                                     Lorem ipsum dolor sit amet,
-                                     consec tetur adipiscing elit.
+                                    consec tetur adipiscing elit.
                                 </li>
                             </ul>
                             <div class="flexbox-center footer-wapper">

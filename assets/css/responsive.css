@@ -1,0 +1,175 @@
+@media (max-width: 810px) {
+    .hide-tablet {
+        display: none;
+    }
+
+    .header-group,
+    .services,
+    .team-sub {
+        padding: 0 40px;
+    }
+
+    .shape-top {
+        top: -15px;
+        left: -30px;
+    }
+
+    .header-bar {
+        display: flex;
+    }
+
+    .home {
+        height: 500px;
+    }
+
+    .home-background {
+        width: 60%;
+    }
+
+    .home-container {
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .home-sub {
+       display: block;
+       padding: 0 40px;
+    }
+
+    .home-topic {
+        line-height: 1.2;
+    }
+
+    .shape-center {
+        transform: translate(-60%, 0);
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 0 40px;
+        gap: 30px;
+    }
+
+    .about-box {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-img {
+        width: 400px;
+    }
+
+    .services-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 40px;
+        gap: 30px;
+    }
+
+    .team-box {
+        padding: 0;
+    }
+
+    .br1 {
+        top: 12px;
+    }
+
+    .footer-choose {
+        padding: 0 40px 130px;
+        flex-wrap: wrap;
+    }
+
+    .footer-box {
+        flex: unset;
+        width: calc(4/12 * 100%);
+        margin-bottom: 40px;
+    }
+
+    .footer-box:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 412px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .header-group,
+    .services,
+    .team-sub,
+    .about,
+    .contact-wapper {
+        padding: 0 10px;
+    }
+
+    .shape-top {
+        top: -50px;
+        left: -50px;
+    }
+
+    .home-title {
+        font-size: 18px;
+    }
+
+    .home-topic {
+        font-size: 38px;
+    }
+
+    .shape-center {
+        transform: translate(-55%, 50%);
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-btn {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .about-img-bottom {
+        margin-top: 50px;
+        float: unset;
+    }
+
+    .team {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 10px;
+    }
+
+    .services-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-room__card {
+        width: 100%;
+        margin: 80px 0;
+    }
+
+    .contact-group {
+        flex-direction: column;
+    }
+
+    .contact-input {
+        flex: unset;
+        width: 100%;
+    }
+
+    .footer-choose {
+        padding: 0 10px 130px;
+    }
+
+    .footer-box {
+        width: 100%;
+    }
+}

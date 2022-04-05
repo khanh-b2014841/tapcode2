@@ -1,4 +1,4 @@
-const header = document.querySelector('.header')
+const header = document.querySelector('.header-box')
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
